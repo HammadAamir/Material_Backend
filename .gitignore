@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+__pycache__
+*.py[cod]
+*.pyc
+
+# C extensions
+material_manager/material_manager/*.so
+
+# Distribution / packaging
+.idea
+material_manager/material_manager/env
+material_manager/material_manager/bin/
+material_manager/material_manager/build/
+material_manager/material_manager/develop-eggs/
+material_manager/material_manager/dist/
+material_manager/material_manager/eggs/
+material_manager/material_manager/lib/
+material_manager/material_manager/lib64/
+material_manager/material_manager/parts/
+material_manager/material_manager/sdist/
+material_manager/material_manager/var/
+material_manager/material_manager/*.egg-info/
+material_manager/material_manager/.installed.cfg
+material_manager/material_manager/*.egg
+
+# Installer logs
+material_manager/material_manager/pip-log.txt
+material_manager/material_manager/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+material_manager/material_manager/.tox/
+material_manager/material_manager/.coverage
+material_manager/material_manager/.cache
+material_manager/material_manager/nosetests.xml
+material_manager/material_manager/coverage.xml
+
+# Translations
+material_manager/material_manager/*.mo
+
+# Mr Developer
+material_manager/material_manager/.mr.developer.cfg
+material_manager/material_manager/.project
+material_manager/material_manager/.pydevproject
+
+# Rope
+material_manager/material_manager/*.ropeproject
+
+# Django stuff:
+material_manager/material_manager/*.log
+material_manager/material_manager/*.pot
+
+# Sphinx documentation
+material_manager/material_manager/docs/_build/
+
+db.sqlite3
+ material_manager/material_manager/material_manager/material_manager/__pycache__
+ material_manager/material_manager/*/__pycache__
+
+
+
+# env
+/.env
+/env/
+/**/migrations/**
+/!**/migrations
+/public/
+/static/
+/manage.py
+/public/employee_images/
+/public/images/
+/public/videos/
+/.idea/
+/.vscode/
+/../.idea/
+/.DS_Store
+/.idea
+/celerybeat-schedule
+/celerybeat.pid
