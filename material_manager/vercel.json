@@ -1,6 +1,6 @@
 {
     "builds": [{
-        "src": "material_manager/material_manager/wsgi.py",
+        "src": "material_manager/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9"}
     },
@@ -16,7 +16,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "material_manager/material_manager/wsgi.py"
+            "dest": "material_manager/wsgi.py"
         }
     ]
 }
