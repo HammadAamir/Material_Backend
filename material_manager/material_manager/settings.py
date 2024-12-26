@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-d9z-umzxaxii9q2f8yfb39wx)5k$$!livp%wk(id_yw_)v7t&9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -152,7 +152,7 @@ SIMPLE_JWT = {
 MEDIA_URL = '/public/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "public/")
 # STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles_build", 'static/')
 SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': {
         'Bearer': {
