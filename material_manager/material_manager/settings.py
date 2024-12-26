@@ -152,7 +152,7 @@ SIMPLE_JWT = {
 MEDIA_URL = '/public/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "public/")
 # STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles_build", 'static/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': {
         'Bearer': {
