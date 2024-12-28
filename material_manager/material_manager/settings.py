@@ -94,7 +94,16 @@ WSGI_APPLICATION = 'material_manager.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'web73_db4',
+        'USER': 'web73_4',
+        'PASSWORD': 'Web2024new!',
+        'HOST': 'server35.webgo24.de',
+        'PORT': '3306',
+    }
+}
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
