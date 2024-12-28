@@ -1,5 +1,5 @@
 echo "BUILD START"
-uname -r
+uname -a
 su apt-get install pkg-config python3-dev default-libmysqlclient-dev build-essential
 python3.9 -m venv env 
 source env/bin/activate
