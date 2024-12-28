@@ -60,8 +60,9 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
-    '*',  # React development server
+    'http://localhost:3000',  # React development server
 ]
+
 
 ROOT_URLCONF = 'material_manager.urls'
 
