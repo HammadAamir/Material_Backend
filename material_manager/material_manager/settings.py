@@ -59,9 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
 ]
-CORS_ALLOWED_ORIGINS = [
-    '*',  # React development server
-]
+
 CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'material_manager.urls'
