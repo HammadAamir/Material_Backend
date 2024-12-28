@@ -1,4 +1,5 @@
 echo "BUILD START"
+sudo apt-get install pkg-config python3-dev default-libmysqlclient-dev build-essential
 python3.9 -m venv env 
 source env/bin/activate
 python3.9 -m pip install --upgrade pip
