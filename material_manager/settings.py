@@ -62,7 +62,8 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000', 'http://www.bill-of-materials.de', 'http://180.30.35.32:8000',  # React development server
+    'http://localhost:3000', 'http://www.bill-of-materials.de', 'http://180.30.35.32:8000', 'http://server.bill-of-materials.de', 'bill-of-materials.de',
+     'http://bill-of-materials.de' # React development server
 ]
 
 
